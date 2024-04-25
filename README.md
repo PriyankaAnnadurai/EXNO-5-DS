@@ -46,8 +46,9 @@ plt.xlabel('Attendence')
 plt.ylabel('Student name')
 plt.show()
 ```
-![image](https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/509b5107-55e6-4900-a34a-f5fe33d0b05f)
-![image](https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/35ac1abf-13c4-420d-a20c-c5117565962a)
+
+<img src="https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/509b5107-55e6-4900-a34a-f5fe33d0b05f" width="300" height="300">
+<img src="https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/35ac1abf-13c4-420d-a20c-c5117565962a" width="300" height="300">
 
 ### Scatter Plot:
 
@@ -67,8 +68,10 @@ plt.ylabel('y axis')
 plt.title('Scatter plot')
 plt.show()
 ```
-![image](https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/fa9fac25-8e8c-4062-b404-c4059b83acf3)
-![image](https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/fcbb4cad-b588-44bc-817f-c6a36c6f3ffe)
+
+<img src="https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/fa9fac25-8e8c-4062-b404-c4059b83acf3" width="300" height="300">
+<img src="https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/fcbb4cad-b588-44bc-817f-c6a36c6f3ffe" width="300" height="300">
+
 
 ### Pie Chart:
 
@@ -87,9 +90,11 @@ plt.pie(slices,labels=feedback,colors=color,startangle=90,shadow=True,explode=(0
 plt.legend()
 plt.show()
 ```
-![image](https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/ba4816f7-a5ca-43ae-ab56-704ed464e76a)
 
-![image](https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/8c753a88-9da7-495d-9842-88dac5ab9a93)
+
+<img src="https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/ba4816f7-a5ca-43ae-ab56-704ed464e76a" width="300" height="300">
+<img src="https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/8c753a88-9da7-495d-9842-88dac5ab9a93" width="300" height="300">
+
 
 ### Area Chart:
 
@@ -105,7 +110,10 @@ plt.plot(x, y2, color='black')
 plt.legend(['y1','y2'])
 plt.show()
 ```
-![image](https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/c59b9cd9-fd38-425e-97ee-9de8c42674dd)
+
+<img src="https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/c59b9cd9-fd38-425e-97ee-9de8c42674dd" width="300" height="300">
+
+
 
 ### Bar Chart:
 
@@ -120,7 +128,10 @@ plt.ylabel('y - axis')
 plt.title('My bar chart!')
 plt.show()
 ```
-![image](https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/1193c6a0-ec5b-42ed-a6ac-118136f3b671)
+
+<img src="https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/1193c6a0-ec5b-42ed-a6ac-118136f3b671" width="300" height="300">
+
+
 
 ### Histogram:
 
@@ -129,7 +140,11 @@ x = [2,1,6,4,2,4,8,9,4,2,4,10,6,4,5,7,7,3,2,7,5,3,5,9,2,1]
 plt.hist(x, bins = 10, color='blue', alpha=0.5)
 plt.show()
 ```
-![image](https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/5355375e-9777-4bc8-83c1-cae6d2da9c2a)
+
+
+<img src="https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/5355375e-9777-4bc8-83c1-cae6d2da9c2a" width="300" height="300">
+
+
 
 ### Box Plot:
 
@@ -138,7 +153,10 @@ np.random.seed(0)
 data=np.random.normal(loc=0, scale=1, size=100)
 data
 ```
-![image](https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/6b540f13-933a-4cf4-8923-eeb8642ffbb2)
+
+
+<img src="https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/6b540f13-933a-4cf4-8923-eeb8642ffbb2" width="300" height="300">
+
 
 ```py
 fig, ax= plt.subplots()
@@ -147,7 +165,10 @@ ax.set_xlabel('Data')
 ax.set_ylabel('Values')
 ax.set_title('Box Plot')
 ```
-![image](https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/4e6304ff-5a0b-49bd-be9a-45798994d467)
+
+<img src="https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/4e6304ff-5a0b-49bd-be9a-45798994d467" width="300" height="300">
+
+
 
 
 
