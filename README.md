@@ -1,12 +1,12 @@
 # EXNO-5-DS-DATA VISUALIZATION USING MATPLOT LIBRARY
 
-# Aim:
+## Aim:
   To Perform Data Visualization using matplot python library for the given datas.
 
-# EXPLANATION:
+## EXPLANATION:
 Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, and maps, data visualization tools provide an accessible way to see and understand trends, outliers, and patterns in data.
 
-# Algorithm:
+## Algorithm:
 STEP 1:Include the necessary Library.
 
 STEP 2:Read the given Data.
@@ -17,7 +17,7 @@ STEP 4:Apply the various data visualization tools wherever necessary.
 
 STEP 5:Include Necessary parameters in each functions.
 
-# Coding and Output:
+## Coding and Output:
 ```
 NAME: PRIYANKA A
 REG NO: 212222230113
@@ -29,7 +29,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 ```
 
-## Line Plot:
+### Line Plot:
 
 ```py
 marks=[13,45,63,78]
@@ -46,9 +46,10 @@ plt.xlabel('Attendence')
 plt.ylabel('Student name')
 plt.show()
 ```
-![image](https://github.com/Sriram8452/EXNO-5-DS/assets/118708032/915713f5-50b1-4013-8037-3a9cc599f291)
+![image](https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/509b5107-55e6-4900-a34a-f5fe33d0b05f)
+![image](https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/35ac1abf-13c4-420d-a20c-c5117565962a)
 
-## Scatter Plot:
+### Scatter Plot:
 
 ```py
 x=[10,20,30,40,50]
@@ -66,9 +67,10 @@ plt.ylabel('y axis')
 plt.title('Scatter plot')
 plt.show()
 ```
-![image](https://github.com/Sriram8452/EXNO-5-DS/assets/118708032/7fab8701-3aee-4b5a-b729-cb82a6c2dd16)
+![image](https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/fa9fac25-8e8c-4062-b404-c4059b83acf3)
+![image](https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/fcbb4cad-b588-44bc-817f-c6a36c6f3ffe)
 
-## Pie Chart:
+### Pie Chart:
 
 ```py
 act=['eat','sleep','work','play']
@@ -85,9 +87,11 @@ plt.pie(slices,labels=feedback,colors=color,startangle=90,shadow=True,explode=(0
 plt.legend()
 plt.show()
 ```
-![image](https://github.com/Sriram8452/EXNO-5-DS/assets/118708032/a16d81be-4162-41f0-ba84-7d43883c3248)
+![image](https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/ba4816f7-a5ca-43ae-ab56-704ed464e76a)
 
-## Area Chart:
+![image](https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/8c753a88-9da7-495d-9842-88dac5ab9a93)
+
+### Area Chart:
 
 ```py
 x = [1, 2, 3, 4, 5]
@@ -101,9 +105,9 @@ plt.plot(x, y2, color='black')
 plt.legend(['y1','y2'])
 plt.show()
 ```
-![image](https://github.com/Sriram8452/EXNO-5-DS/assets/118708032/9d90b6c9-70ac-4f52-bec1-975fafa4afc7)
+![image](https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/c59b9cd9-fd38-425e-97ee-9de8c42674dd)
 
-## Bar Chart:
+### Bar Chart:
 
 ```py
 height = [10, 24, 36, 40, 5]
@@ -116,25 +120,25 @@ plt.ylabel('y - axis')
 plt.title('My bar chart!')
 plt.show()
 ```
-![image](https://github.com/Sriram8452/EXNO-5-DS/assets/118708032/6685a45c-7ed2-44c4-8730-3a2e55acf7e3)
+![image](https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/1193c6a0-ec5b-42ed-a6ac-118136f3b671)
 
-## Histogram:
+### Histogram:
 
 ```py
 x = [2,1,6,4,2,4,8,9,4,2,4,10,6,4,5,7,7,3,2,7,5,3,5,9,2,1]
 plt.hist(x, bins = 10, color='blue', alpha=0.5)
 plt.show()
 ```
-![image](https://github.com/Sriram8452/EXNO-5-DS/assets/118708032/c7d07305-db41-438c-8585-81346fead120)
+![image](https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/5355375e-9777-4bc8-83c1-cae6d2da9c2a)
 
-## Box Plot:
+### Box Plot:
 
 ```py
 np.random.seed(0)
 data=np.random.normal(loc=0, scale=1, size=100)
 data
 ```
-![image](https://github.com/Sriram8452/EXNO-5-DS/assets/118708032/1073572a-2c3a-487c-a1b8-efdbc595ac91)
+![image](https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/6b540f13-933a-4cf4-8923-eeb8642ffbb2)
 
 ```py
 fig, ax= plt.subplots()
@@ -143,10 +147,10 @@ ax.set_xlabel('Data')
 ax.set_ylabel('Values')
 ax.set_title('Box Plot')
 ```
-![image](https://github.com/Sriram8452/EXNO-5-DS/assets/118708032/3e04e28b-5a0e-412e-ad52-ecda68c69561)
+![image](https://github.com/PriyankaAnnadurai/EXNO-5-DS/assets/118351569/4e6304ff-5a0b-49bd-be9a-45798994d467)
 
 
 
-# Result:
+## Result:
 
 Thus, all the data visualization techniques of matplotlib has been implemented.
